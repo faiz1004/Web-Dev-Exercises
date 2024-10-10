@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Tables
+    </title>
+</head>
+<body>
+    <style>table,
+     tr, 
+     th, 
+     td
+     {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+    }
+    th{
+        background-color: blueviolet;
+    }
+    td{
+        background-color: brown;
+    }</style>
+
+    <table>
+        
+        <thead>
+        <tr>
+            <th>Subjects</th>
+            <th>Theory</th>
+            <th>Practical</th>
+            <th>Marks</th>
+            <th>Grades</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>70</td>
+                <td>-</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>70</td>
+                <td>-</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td>70</td>
+                <td>67</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Maths</td>
+                <td>70</td>
+                <td>-</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>70</td>
+                <td>45</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result:PASS</th>
+        </tfoot>
+    </table>
+</body>
+</html>
